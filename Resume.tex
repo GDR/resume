@@ -1,0 +1,172 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[usenames]{color}
+
+\leftmargin=0.25in
+\oddsidemargin=0.25in
+\textwidth=6.0in
+\topmargin=-0.25in
+\textheight=9.25in
+
+\raggedright
+
+%\pagenumbering{arabic}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+\contact{Damir Garifullin}{gosugdr@gmail.com}{+7 (921) 398-4356}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{Education}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{B.S. Computer Science} \hfill \emph{Septmber 2011 -- January 2016} \\
+	\smallskip
+	\emph{National Research University of Information Technologies, Mechanics and Optics} Saint-Petersburg, Russia\\
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+\header{Career History}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{Software Engineer}, \emph{IT Avia} \hfill \emph{Spring 2013 -- Fall 2013}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item Developing software for airlines.
+		\item Making access to remote desktop from browsers.
+	\end{itemize}
+	\smallskip
+	\vspace{14pt}
+	\textbf{Software Engineer}, \emph{Odnoklassniki.ru} \hfill \emph{Fall 2013 -- Summer 2014}\\
+	\vspace*{-4pt}
+	\begin{itemize} \itemsep -0pt  % reduce space between items
+		\item Working on 2nd biggest social network in russian internet
+		\item $\sim50$ million people everyday.
+		\item Java, high perfomance.
+		\item Securing accounts of users and administrators of communities
+	\end{itemize}
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills
+\header{Skills}
+
+\begin{body}
+	\vspace{14pt}
+	\emph{\textbf{Programming:}}{}
+	\begin{itemize}
+		\item \textbf{Java} 3 years experience
+		\item \textbf{C/C++} 8 years experience
+		\item \textbf{Algorithms and Data Structures}
+		\item \textbf{Android development} 
+	\end{itemize}
+	\emph{\textbf{Misc.:}}{} HTML/CSS, SQL, C\#, ASP.NET, Javascript, Node.js, Unix
+\end{body}
+
+\vspace{14pt}
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Personal qualities
+\header{Personal qualities}
+
+\begin{body}
+	\vspace{14pt}
+	Teamwork skills, flexibility, discipline.
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awards and Honors
+\header{Awards and Honors}
+
+\begin{body}
+	\vspace{14pt}
+	\textbf{All-Russian programming team contest} for high school students (final)\hfill \emph{\textbf{2010--2011}}\\
+	\smallskip
+	\textbf{All-Russian programming contest} for high school students (final)\hfill \emph{\textbf{2011}}\\
+	\smallskip
+	\textbf{ACM ICPC}, NEERC (semi-final) \hfill{} \emph{\textbf{2011}}\\
+	\smallskip
+	\vspace{14pt}
+	I've been programming and participating in competitions like ACM ICPC since 2007 year. \\
+	Took a part in a lot of programming training camps (Petrozavodsk) and contests (Hacker Cup, Google Code Jam, TopCoder, Codeforces etc.).\\
+	\smallskip
+	\textbf{Codeforces} \hfill{} \emph{in top \textbf{1000}}\\
+	\smallskip
+	\textbf{Facebook Hacker Cup} \hfill{} \emph{in top \textbf{250}}\\
+	\smallskip
+\end{body}
+
+\end{document}

@@ -1,10 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.1.16)  16 JAN 2015 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.1.16)  20 JAN 2015 13:17
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**\input ./Resume.tex
-(./Resume.tex (/usr/share/texmf-dist/tex/latex/base/article.cls
+**Resume.tex
+(./Resume.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
@@ -162,19 +164,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Resume.aux) ) 
 Here is how much of TeX's memory you used:
  1903 strings out of 493108
- 22819 string characters out of 6140725
+ 22817 string characters out of 6140725
  83868 words of memory out of 5000000
  5375 multiletter control sequences out of 15000+600000
  10199 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,5n,26p,231b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,5n,26p,222b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Resume.pdf (1 page, 83088 bytes).
+Output written on Resume.pdf (1 page, 83099 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
